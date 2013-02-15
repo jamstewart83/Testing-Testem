@@ -5,7 +5,6 @@ describe("TestDOMObject", function() {
     expect(testObject).toBeDefined();
   });
 
-  // I'm not sure about this, should we test this?
   it("also has access to it's jQuery element", function(){
     expect(testObject.$ele).toBeDefined(); // ensure it's defined
     expect(testObject.$ele.length).toBeGreaterThan(0); // ensure you find one
